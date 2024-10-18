@@ -1,0 +1,23 @@
+POST http://localhost:3000/data
+content-type: text/plain
+
+1649941817 Voltage 1.34
+1649941818 Voltage 1.35
+1649941817 Current 12.0
+1649941818 Current 14.0
+
+###
+
+GET http://localhost:3000/data?from=2022-04-14&to=2022-04-15
+
+###
+
+
+POST http://localhost:3000/data
+content-type: text/plain
+
+1649941817 Voltage 1.34
+1649941818 1.35 Voltage
+
+###
+
